@@ -4,6 +4,9 @@ go 1.20
 
 // replace github.com/openpubkey/openpubkey => github.com/lgmugnier/openpubkey v0.0.0-20240307175306-49b2f0de25da
 
+// require github.com/openpubkey/openpubkey v0.2.2-0.20240305232829-62604f09b285
+replace github.com/openpubkey/openpubkey v0.2.2-0.20240305232829-62604f09b285 => github.com/ethanheilman/openpubkey v0.0.0-20240307193759-677c3ffd9925
+
 require github.com/openpubkey/openpubkey v0.2.2-0.20240305232829-62604f09b285
 
 require (
