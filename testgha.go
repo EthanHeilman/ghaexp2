@@ -25,13 +25,15 @@ func main() {
 
 	pkt, err := c.Auth(context.TODO())
 	if err != nil {
-		fmt.Printf("Error creating client")
+		fmt.Printf("Error getting pkt")
 		panic(err)
 	}
 
-	verErr := ghaOp.Verifier().VerifyProvider(context.TODO(), pkt)
-	if verErr != nil {
-		fmt.Printf("Error verifying pktoken")
-		panic(verErr)
-	}
+	client.VerifyPKToken(context.TODO(), pkt, ghaOp)
+
+	// verErr := ghaOp.Verifier().VerifyProvider(context.TODO(), pkt)
+	// if verErr != nil {
+	// 	fmt.Printf("Error verifying pktoken")
+	// 	panic(verErr)
+	// }
 }

@@ -2,9 +2,9 @@ module ghaexp2
 
 go 1.20
 
-replace github.com/openpubkey/openpubkey => github.com/lgmugnier/openpubkey v0.0.0-20240307175306-49b2f0de25da
+// replace github.com/openpubkey/openpubkey => github.com/lgmugnier/openpubkey v0.0.0-20240307175306-49b2f0de25da
 
-require github.com/openpubkey/openpubkey v0.2.1
+require github.com/openpubkey/openpubkey v0.2.2-0.20240305232829-62604f09b285
 
 require (
 	filippo.io/bigmod v0.0.3 // indirect
