@@ -9,6 +9,12 @@ import (
 )
 
 func main() {
+	defer func() {
+		if r := recover(); r != nil {
+			fmt.Println(fmt.Sprintf("%+v", r))
+		}
+	}()
+
 	ghaOp, err := providers.NewGithubOpFromEnvironment()
 	if err != nil {
 		fmt.Printf("Error creating provider")
