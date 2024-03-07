@@ -9,8 +9,8 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/decred/dcrd/dcrec/secp256k1/v4 v4.2.0 h1:8UrgZ3GkP4i/CLijOJx79Yu+etlyjdBU4sfcs2WYQMs=
 github.com/decred/dcrd/dcrec/secp256k1/v4 v4.2.0/go.mod h1:v57UDF4pDQJcEfFUCRop3lJL149eHGSe9Jvczhzjo/0=
-github.com/ethanheilman/openpubkey v0.0.0-20240307201002-c3fe3f3c40f4 h1:mH+gy+02X2bYVcthFM/ASxcUAkqziAl3iNYWWnndxjw=
-github.com/ethanheilman/openpubkey v0.0.0-20240307201002-c3fe3f3c40f4/go.mod h1:Q4Av3f/iwjp7hIq5WZ30LdKj5jO+9SJ1czbrvTFs+fE=
+github.com/ethanheilman/openpubkey v0.0.0-20240307205757-477c23b1c656 h1:hWELBOyej9s0EkS1njXcO6BrN4MJLJBXcCUBlJkwPtU=
+github.com/ethanheilman/openpubkey v0.0.0-20240307205757-477c23b1c656/go.mod h1:Q4Av3f/iwjp7hIq5WZ30LdKj5jO+9SJ1czbrvTFs+fE=
 github.com/go-logr/logr v1.2.4 h1:g01GSCwiDw2xSZfjJ2/T9M+S6pFdcNtFYsp+Y43HYDQ=
 github.com/go-logr/stdr v1.2.2 h1:hSWxHoqTgW2S2qGc0LTAI563KZ5YKYRhT3MFKZMbjag=
 github.com/goccy/go-json v0.10.2 h1:CrxCmQqYDkv1z7lO7Wbh2HN93uovUHgrECaO5ZrCXAU=

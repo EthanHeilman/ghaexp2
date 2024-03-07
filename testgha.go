@@ -65,7 +65,13 @@ func main() {
 		panic(verErr)
 	} else {
 		fmt.Printf("Success verifying pktoken")
-
 	}
 
+	verErr2 := ghaOp.Verifier().VerifyProvider(context.TODO(), pkt)
+	if verErr2 != nil {
+		fmt.Printf("Error verifying pktoken on VerifyProvider")
+		panic(verErr2)
+	} else {
+		fmt.Printf("Success verifying pktoken on VerifyProvider")
+	}
 }
