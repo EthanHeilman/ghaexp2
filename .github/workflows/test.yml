@@ -8,6 +8,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      
     strategy:
       matrix:
         go-version: [ '1.19', '1.20', '1.21.x' ]
