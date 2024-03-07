@@ -21,5 +21,9 @@ jobs:
       # You can test your matrix by printing the current Go version
       - name: Display Go version
         run: go version
+      - name: Install dependencies
+        run: |
+          go get .
+          go get https://github.com/lgmugnier/openpubkey@verification-refactor
       - name: Test OpenPubkey with GHA
         run: go run testgha.go
