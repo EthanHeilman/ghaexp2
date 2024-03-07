@@ -9,10 +9,11 @@ go 1.20
 // replace github.com/openpubkey/openpubkey v0.2.2-0.20240305232829-62604f09b285 => github.com/lgmugnier/openpubkey v0.0.0-20240307175306-49b2f0de25da
 
 // replace github.com/openpubkey/openpubkey v0.2.2-0.20240305232829-62604f09b285 => github.com/ethanheilman/openpubkey v0.0.0-20240307205757-477c23b1c656
-replace github.com/openpubkey/openpubkey v0.2.2-0.20240305232829-62604f09b285 => github.com/ethanheilman/openpubkey v0.0.0-20240307221804-0cf7d2c7bf07
+replace github.com/openpubkey/openpubkey v0.2.2-0.20240305232829-62604f09b285 => github.com/ethanheilman/openpubkey v0.0.0-20240307225401-8e5b38f25fc8
 
 require (
 	github.com/awnumar/memguard v0.22.3
+	github.com/lestrrat-go/jwx/v2 v2.0.19
 	github.com/openpubkey/openpubkey v0.2.2-0.20240305232829-62604f09b285
 )
 
@@ -29,7 +30,6 @@ require (
 	github.com/lestrrat-go/httpcc v1.0.1 // indirect
 	github.com/lestrrat-go/httprc v1.0.4 // indirect
 	github.com/lestrrat-go/iter v1.0.2 // indirect
-	github.com/lestrrat-go/jwx/v2 v2.0.19 // indirect
 	github.com/lestrrat-go/option v1.0.1 // indirect
 	github.com/muhlemmer/gu v0.3.1 // indirect
 	github.com/segmentio/asm v1.2.0 // indirect
