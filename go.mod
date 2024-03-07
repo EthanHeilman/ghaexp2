@@ -7,12 +7,14 @@ go 1.20
 // require github.com/openpubkey/openpubkey v0.2.2-0.20240305232829-62604f09b285
 replace github.com/openpubkey/openpubkey v0.2.2-0.20240305232829-62604f09b285 => github.com/ethanheilman/openpubkey v0.0.0-20240307193759-677c3ffd9925
 
-require github.com/openpubkey/openpubkey v0.2.2-0.20240305232829-62604f09b285
+require (
+	github.com/awnumar/memguard v0.22.3
+	github.com/openpubkey/openpubkey v0.2.2-0.20240305232829-62604f09b285
+)
 
 require (
 	filippo.io/bigmod v0.0.3 // indirect
 	github.com/awnumar/memcall v0.1.2 // indirect
-	github.com/awnumar/memguard v0.22.3 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.2.0 // indirect
 	github.com/goccy/go-json v0.10.2 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
