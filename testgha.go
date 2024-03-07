@@ -46,7 +46,7 @@ func main() {
 
 	_ = ghaOp
 
-	c, err := client.New(ghaOp)
+	c, err := client.New(ghaOp, client.WithSignGQ(true))
 	if err != nil {
 		fmt.Printf("Error creating client")
 		panic(err)
@@ -58,11 +58,14 @@ func main() {
 		panic(err)
 	}
 
-	client.VerifyPKToken(context.TODO(), pkt, ghaOp)
-
 	// verErr := ghaOp.Verifier().VerifyProvider(context.TODO(), pkt)
-	// if verErr != nil {
-	// 	fmt.Printf("Error verifying pktoken")
-	// 	panic(verErr)
-	// }
+	verErr := client.VerifyPKToken(context.TODO(), pkt, ghaOp)
+	if verErr != nil {
+		fmt.Printf("Error verifying pktoken")
+		panic(verErr)
+	} else {
+		fmt.Printf("Success verifying pktoken")
+
+	}
+
 }
